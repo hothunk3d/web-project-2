@@ -161,5 +161,9 @@
 }
 
 .pre-btn img, .nxt-btn{
-    
+    opacity: 0.2;
+}
+
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 1;
 }
