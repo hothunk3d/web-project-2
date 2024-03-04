@@ -1,137 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product - </title>
 	<link rel="stylesheet" type="text/css" href="css/home.css">
-
-	<title>Clothing | Best Apparels Online Store</title>
+	<link rel="stylesheet" type="text/css" href="css/product.css">
 </head>
 <body>
-
-	<nav class="navbar"></nav>
-
-	<!-- hero section-->
-	<header class="hero-section">
-		<div class="content">
-			<img src="img/light-logo.png" class="logo" alt="">
-			<p class="sub-heading">best fashion collection of all time</p>
-		</div>
-	</header>
-
-	<!-- Cards-container-->
-	<section class="product">
-		<h2 class="product-category">best selling</h2>
-        <button class="pre-btn"><img src="img/arrow.png"></button>
-        <button class="nxt-btn"><img src="img/arrow.png"></button>
-		<div class="product-container">
-			<div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card1.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
-			</div>
-            <div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card2.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
-			</div>
-            <div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card3.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
-			</div>
-            <div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card4.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
-			</div>
-            <div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card5.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
-			</div>
-            <div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card6.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
-			</div>
-            <div class="product-card">
-				<div class="product-image">
-					<span class="discount-tag">50% off</span>
-					<img src="img/card7.png" class="product-thumb" alt="product-image">
-					<button class="card-btn">add to wishlist</button>
-				</div>
-                <div class="product-info">
-                    <h2 class="product-brand">versace</h2>
-                    <p class="product-short-des">elegant women clothing.</p>
-                    <span class="price">$20</span><span class="actual-price">$50</span>
-                </div>
+	<nav class="navbar">
+		
+	</nav>
+	
+	<section class="product-details">
+		<div class="image-slider">
+			<div class="product-images">
+				<img src="img/product image 1.png" class="active" alt="">
+				<img src="img/product image 2.png" alt="">
+				<img src="img/product image 3.png" alt="">
+				<img src="img/product image 4.png" alt="">
 			</div>
 		</div>
+
+		<div class="details">
+			<h2 class="product-brand">calvin klein</h2>
+			<p class="product-short-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+			<span class="product-price">$35</span>
+			<span class="product-actual-price">$47</span>
+			<span class="product-discount">( 50% off )</span>
+
+			<p class="product-sub-heading">select size</p>
+			<input type="radio" name="size" value="s" checked hidden id="s-size">
+			<label for="s-size" class="size-radio-btn check">s</label>
+			<input type="radio" name="size" value="m" hidden id="m-size">
+			<label for="m-size" class="size-radio-btn">m</label>
+			<input type="radio" name="size" value="l" hidden id="l-size">
+			<label for="l-size" class="size-radio-btn">l</label>
+			<input type="radio" name="size" value="xl" hidden id="xl-size">
+			<label for="xl-size" class="size-radio-btn">xl</label>
+			<input type="radio" name="size" value="xxl" hidden id="xxl-size">
+			<label for="xxl-size" class="size-radio-btn">xxl</label>
+
+			<button class="btn cart-btn">add to cart</button>
+			<button class="btn">add to wishlist</button>
+		</div>
+		
 	</section>
 
-    <!-- collections -->
-    <section class="collection-container">
-        <a href="#" class="collection">
-            <img src="img/women-collection.png" alt="">
-            <p class="collection-title">women <br> apparels</p>
-        </a>
+	<section class="detail-des">
+		<h2 class="heading">description</h2>
+		<p class="des">This is where you can write all the information about the product that you are selling. Therefore, it is important that you put everything together well.</p>
+	</section>
 
-        <a href="#" class="collection">
-            <img src="img/men-collection.png" alt="">
-            <p class="collection-title">men <br> apparels</p>
-        </a>
-
-        <a href="#" class="collection">
-            <img src="img/accessories-collection.png" alt="">
-            <p class="collection-title">accessories</p>
-        </a>
-    </section>
-
-    <!--Shirts Cards-container-->
+	<!-- Shirts Cards-container-->
 	<section class="product">
 		<h2 class="product-category">Shirts</h2>
         <button class="pre-btn"><img src="img/arrow.png"></button>
@@ -140,7 +62,7 @@
 			<div class="product-card">
 				<div class="product-image">
 					<span class="discount-tag">50% off</span>
-					<a href="product.html"><img src="img/product image 1.png" class="product-thumb" alt="product-image"></a>
+					<img src="img/product image 1.png" class="product-thumb" alt="product-image">
 					<button class="card-btn">add to wishlist</button>
 				</div>
                 <div class="product-info">
@@ -224,7 +146,7 @@
 		</div>
 	</section>
 
-    <!-- Cards-container-->
+	<!-- Shoes Cards-container-->
 	<section class="product">
 		<h2 class="product-category">Shoes</h2>
         <button class="pre-btn"><img src="img/arrow.png"></button>
@@ -317,16 +239,14 @@
 		</div>
 	</section>
 
-
-
 	<footer>
-
+		
 	</footer>
 
 	<script type="text/javascript" src="js/nav.js"></script>
-    <script type="text/javascript" src="js/home.js"></script>
 	<script type="text/javascript" src="js/footer.js"></script>
-
+	<script type="text/javascript" src="js/home.js"></script>
+	<script type="text/javascript" src="js/product.js"></script>
 
 </body>
 </html>
